@@ -22287,6 +22287,51 @@ fieldset:disabled .btn {
   background-color: rgba(var(--bs-pinky-rgb), var(--bs-bg-opacity)) !important;
 }
 
+/* Small devices (Phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .ct {
+      font-size: 0.6rem; /* Equivalent to fs-5 */
+  }
+  .icn{
+    height: 3vh;
+    width: 3vh;
+  }
+  .loc{
+    font-size: 12px;
+  }
+}
 
+/* Medium devices (Tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .ct {
+      font-size: 1.5rem; /* Equivalent to fs-4 */
+  }
+  .icn{
+    height: 6vh;
+    width: 6vh;
+  }
+  .loc{
+    font-size: 14px;
+  }
+}
+
+/* Large devices (Desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .ct {
+      font-size: 1.875rem; /* Equivalent to fs-3 */
+  }
+  .icn{
+    height: 10vh;
+    width: 10vh;
+  }
+  .loc{
+    font-size: 18px;
+  }
+}
+
+.icon-text {
+  display: flex;
+  gap: 10px;
+}
 
 /*# sourceMappingURL=custom.min.css.map */

@@ -22350,4 +22350,13 @@ fieldset:disabled .btn {
   font-size: clamp(5px, 2vw, 75px);
 }
 
+.card-title-produk {
+  font-size: clamp(12px, 2.5vw, 75px);
+}
+
+.btn-text {
+  font-size: clamp(7px, 2vw, 75px);
+}
+
+
 /*# sourceMappingURL=custom.min.css.map */

@@ -221,7 +221,7 @@ pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  overflow: auto;
+  overflow: hidden;
   font-size: 0.875em;
 }
 
@@ -22345,10 +22345,23 @@ fieldset:disabled .btn {
 .about-title {
   font-size: clamp(20px, 8vw, 75px);
 }
-
 .about-text {
-  font-size: clamp(5px, 2vw, 75px);
+  font-size: clamp(10px, 2vw, 75px);
 }
+
+.contact-title {
+  font-size: clamp(13px, 5vw, 60px);
+}
+.contact-text {
+  font-size: clamp(10px, 2vw, 40px);
+}
+.testi-text {
+  font-size: clamp(15px, 2vw, 40px);
+}
+.faq-title {
+  font-size: clamp(7px, 6vw, 50px);
+}
+
 
 .card-title-produk {
   font-size: clamp(12px, 2.5vw, 75px);
@@ -22358,5 +22371,99 @@ fieldset:disabled .btn {
   font-size: clamp(7px, 2vw, 75px);
 }
 
+.parallax {
+  background-image: url("https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Mochi7.jpg");
+  min-height: 40vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+section{
+  display:grid;
+  place-items: center;
+  align-content: center;
+  min-height: 50vh;
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(7px);
+  transform: translateX(-50%);
+  transition: all 1.5s;
+}
+.hidden2{
+  opacity: 0;
+  filter: blur(7px);
+  transform: translateX(-20%);
+  transition: all 1.5s;
+}
+
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+  .hidden2 {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.delay:nth-child(2){
+  transition-delay: 300ms;
+}
+.delay:nth-child(3){
+  transition-delay: 400ms;
+}
+.delay:nth-child(4){
+  transition-delay: 500ms;
+}
+.delay:nth-child(5){
+  transition-delay: 600ms;
+}
+.delay:nth-child(6){
+  transition-delay: 700ms;
+}
+.delay:nth-child(7){
+  transition-delay: 800ms;
+}
+
+.spacer{
+  aspect-ratio: 960/540;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wave1{
+  background-image: url(../assets/bg/wave1.svg);
+}
+.wave2{
+  background-image: url(../assets/bg/wave2.svg);
+}
+.wave3{
+  background-image: url(../assets/bg/wave3.svg);
+}
+.wave4{
+  background-image: url(../assets/bg/wave4.svg);
+}
+.wave5{
+  background-image: url(../assets/bg/wave5.svg);
+}
+.wave8{
+  background-image: url(../assets/bg/wave8.svg);
+}
 
 /*# sourceMappingURL=custom.min.css.map */

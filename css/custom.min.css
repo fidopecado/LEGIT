@@ -22334,63 +22334,36 @@ fieldset:disabled .btn {
   gap: 10px;
 }
 
-.faq-button {
-  font-size: clamp(1rem, 2vw, 1.5rem);
+.title-text {
+  font-size: clamp(25px, 5vw, 45px);
+  /* Sesuaikan nilai min, val, dan max sesuai kebutuhan */
 }
 
-.home-text {
-  font-size: clamp(38px, 8vw, 100px);
-}
-
-.about-title {
-  font-size: clamp(20px, 8vw, 75px);
-}
-.about-text {
-  font-size: clamp(10px, 2vw, 75px);
-}
-
-.contact-title {
-  font-size: clamp(13px, 5vw, 60px);
-}
-.contact-text {
-  font-size: clamp(10px, 2vw, 40px);
-}
-.testi-text {
-  font-size: clamp(15px, 2vw, 40px);
-}
-.faq-title {
-  font-size: clamp(7px, 6vw, 50px);
-}
-
-
-.card-title-produk {
-  font-size: clamp(12px, 2.5vw, 75px);
+.BIG-text {
+  font-size: clamp(40px, 8vw, 80px);
+  /* Sesuaikan nilai min, val, dan max sesuai kebutuhan */
 }
 
 .btn-text {
-  font-size: clamp(7px, 2vw, 75px);
+  font-size: clamp(10px, 2vw, 16px);
+  /* Sesuaikan nilai min, val, dan max sesuai kebutuhan */
 }
 
-.parallax {
-  background-image: url("https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Mochi7.jpg");
-  min-height: 40vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.desc-text {
+  font-size: clamp(10px, 3vw, 25px);
+  /* Sesuaikan nilai min, val, dan max sesuai kebutuhan */
 }
 
-@media only screen and (max-device-width: 900px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+.footer-text {
+  font-size: clamp(6px, 1.5vw, 14px);
+  /* Sesuaikan nilai min, val, dan max sesuai kebutuhan */
 }
 
 section{
   display:grid;
   place-items: center;
   align-content: center;
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 .hidden{
@@ -22466,4 +22439,111 @@ section{
   background-image: url(../assets/bg/wave8.svg);
 }
 
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 76px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    height: 100vh;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    transform: translateX(-100%);
+  }
+}
+
+
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
 /*# sourceMappingURL=custom.min.css.map */

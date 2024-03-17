@@ -22,16 +22,16 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
-        <nav class="navbar navbar-dark bg-transparent fixed-top pt-0" id="navbartop">
-            <div class="container-fluid d-flex align-items-center">
-                <a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid rounded-top-2"
+        <!-- <nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top pt-0" id="navbartop">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="img-fluid rounded-top-2"
                         style="max-height: 100px; max-height: 50px;"
-                        src="https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Gitlegit.png" alt></a>
-                <button class="navbar-toggler border-0 text-white mt-1" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        src="https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Gitlegit.png" alt>
+                </a>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                  </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
@@ -55,17 +55,51 @@
                                 <a href="#contact" class="text-dark nav-link" style="text-decoration: none">Contact</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success text-dark" type="submit">
-                                Search
-                            </button>
-                        </form>
-                    </div>
+                    </div> -->
+        <!-- <div class="offcanvas-collapse navbar-collapse" id="navbarsExampleDefault">
+                        <ul class="navbar-nav text-black ms-2 mb-md-0 justify-content-end">
+                          
+                        </ul>
+                </div>
+            </div>
+        </nav> -->
+        <nav class="autohide navbar navbar-expand-lg fixed-top navbar-dark bg-dark" aria-label="Main navigation" id="navbartop">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="img-fluid rounded-top-2"
+                        style="max-height: 100px; max-height: 50px;"
+                        src="https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Gitlegit.png" alt>
+                </a>
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-altgrey">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#tentangkami" class="nav-link "
+                                    >About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#produk" class="nav-link " >Produk</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#testi" class="nav-link " >Testimoni</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#faq" class="nav-link " >FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#contact" class="nav-link " >Contact</a>
+                          </li>
+                    </ul>
                 </div>
             </div>
         </nav>
-
     </header>
     <main>
         <!--Home-->
@@ -79,11 +113,11 @@
                         src="https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Mochi1.png" alt="Card image"
                         style="object-fit: cover; height: 100vh;">
                     <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                        <p class="text-center home-text d-none d-sm-block"
+                        <p class="text-center home-text d-none d-sm-block BIG-text"
                             style="font-family: Gliker; line-height: 0.9; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);">
                             MAU
                             YANG LEGIT?<br>YA #GITLEGIT</p>
-                        <p class="text-left home-text d-block d-sm-none "
+                        <p class="text-left home-text d-block d-sm-none BIG-text"
                             style="font-family: Gliker; line-height: 0.9; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);">
                             MAU
                             YANG LEGIT?<br>YA #GITLEGIT</p>
@@ -93,11 +127,11 @@
         <!--Tentang Kami-->
         <section id="tentangkami">
             <div class="container-fluid bg-white">
-                <div class="row justify-content-center align-items-center mb-3 abouts">
-                    <div class="hidden abouts col-12 text-dbluey about-title d-flex align-items-center justify-content-center pt-3 pb-3"
+                <div class="row justify-content-center align-items-center mb-3">
+                    <div class="hidden title-text col-12 text-dbluey d-flex align-items-center justify-content-center pt-3 pb-3"
                         style="font-family: Gliker;">Tentang Kami</div>
                     <div class="col-9 col-md-4 ps-2 d-flex align-items-center justify-content-center rounded-3">
-                        <div class="hidden abouts carousel slide" data-bs-ride="carousel">
+                        <div class="hidden carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="./assets/Mochies3.jpg" alt="" class="img-fluid rounded-3"
@@ -122,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" abouts hidden2 col-9 col-md-8 pt-3 pt-md-0 text-dbluey about-text text-left d-flex
+                    <div class="hidden2 col-9 col-md-8 pt-3 pt-md-0 text-dbluey desc-text text-left d-flex
                                         align-items-center justify-content-center pe-3"
                                         style="font-family: Gliker;">Gitlegit Mochiku
                                     merupakan sebuah usaha atau bisnis yang bergerak
@@ -136,7 +170,7 @@
         <section id="produk">
             <div class="container-fluid spacer wave2">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-12 col-12 text-dbluey about-title d-flex align-items-center justify-content-center pt-5 pb-2"
+                    <div class="col-12 col-12 text-dbluey title-text d-flex align-items-center justify-content-center pt-5 pb-2"
                         style="font-family: Gliker; font-weight: 600;">
                         Produk Kami
                     </div>
@@ -148,17 +182,17 @@
                         <ul class="nav nav-pills nav-fill bg-dbluey rounded-5 flex-row" id="pillNav2" role="tablist"
                             style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-light); --bs-nav-pills-link-active-bg: var(--bs-bluey); font-family: Gliker; font-size: 2vw;">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active rounded-5 about-text" id="mochi-tab2"
+                                <button class="nav-link active rounded-5 btn-text" id="mochi-tab2"
                                     data-bs-toggle="tab" data-bs-target="#mochi" type="button" role="tab"
                                     aria-selected="true">Mochi</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link rounded-5 about-text" id="ricebowl-tab2" data-bs-toggle="tab"
+                                <button class="nav-link rounded-5 btn-text" id="ricebowl-tab2" data-bs-toggle="tab"
                                     data-bs-target="#ricebowl" type="button" role="tab" aria-selected="false">Rice
                                     Bowl</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link rounded-5 about-text" id="bites-tab2" data-bs-toggle="tab"
+                                <button class="nav-link rounded-5 btn-text" id="bites-tab2" data-bs-toggle="tab"
                                     data-bs-target="#bites" type="button" role="tab" aria-selected="false">Mochi
                                     Bites</button>
                             </li>
@@ -652,11 +686,6 @@
                                 fill="#4c05b6"></path>
                         </g>
                     </svg>
-                    <!-- <div class="parallax"></div> -->
-                    <!-- <div class="p-0 mt-1">
-                        <img src="https://raw.githubusercontent.com/fidopecado/LEGIT/main/assets/Mochi7.jpg"
-                            class="img-fluid">
-                    </div> -->
                 </div>
             </div>
         </section>
@@ -666,8 +695,8 @@
             <div class="container-fluid spacer wave3 pb-3 text-altgrey">
                 <div class="row d-flex justify-content-center pt-2 flex-row">
                     <div class="col-12 col-md-10 col-xl-8 text-center">
-                        <h3 class="mb-4 about-title" style="font-family: Gliker; font-weight: 500;">Testimoni</h3>
-                        <p class="testi-text" style="line-height: 1.15;">
+                        <h3 class="mb-4 title-text" style="font-family: Gliker; font-weight: 500;">Testimoni</h3>
+                        <p class="desc-text" style="line-height: 1.15;">
                             Berikut adalah testimoni asli dari pelanggan-pelanggan setia kami yang telah mencoba produk
                             dari GITLEGIT
                         </p>
@@ -795,7 +824,7 @@
             <div class="container-fluid spacer">
                 <div class="row d-flex justify-content-center mt-4 flex-row" id="faq">
                     <div class="col-12 col-md-10 col-xl-8 text-center ">
-                        <h3 class="mb-2 faq-title" style="font-family: Gliker; font-weight: 500;">Frequently Asked
+                        <h3 class="mb-2 title-text" style="font-family: Gliker; font-weight: 500;">Frequently Asked
                             Questions
                         </h3>
                     </div>
@@ -811,7 +840,7 @@
                             <div class="accordion accordion-flush mb-3" id="accordionFlushExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey faq-button"
+                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey desc-text"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                             aria-expanded="false" aria-controls="flush-collapseOne"
                                             style="font-family: Gliker; font-weight: 600;">
@@ -829,7 +858,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey  faq-button"
+                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey desc-text"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                             aria-expanded="false" aria-controls="flush-collapseTwo"
                                             style="font-family: Gliker; font-weight: 600;">
@@ -851,7 +880,7 @@
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey  faq-button"
+                                        <button class="hidden2 delay accordion-button collapsed bg-altgrey desc-text"
                                             type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                                             aria-controls="flush-collapseThree"
@@ -870,19 +899,43 @@
                             </div>
                         </div>
                     </div>
-                    <svg id="visual" viewBox="0 300 960 240" class="img-fluid p-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 396L10.7 398.7C21.3 401.3 42.7 406.7 64 411.2C85.3 415.7 106.7 419.3 128 421.2C149.3 423 170.7 423 192 422.3C213.3 421.7 234.7 420.3 256 419.2C277.3 418 298.7 417 320 417.2C341.3 417.3 362.7 418.7 384 420.8C405.3 423 426.7 426 448 424.8C469.3 423.7 490.7 418.3 512 418.8C533.3 419.3 554.7 425.7 576 424.2C597.3 422.7 618.7 413.3 640 413.5C661.3 413.7 682.7 423.3 704 422.2C725.3 421 746.7 409 768 407.3C789.3 405.7 810.7 414.3 832 416.7C853.3 419 874.7 415 896 411.2C917.3 407.3 938.7 403.7 949.3 401.8L960 400L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#ffffff"></path><path d="M0 446L10.7 440.3C21.3 434.7 42.7 423.3 64 421.3C85.3 419.3 106.7 426.7 128 426.7C149.3 426.7 170.7 419.3 192 420.7C213.3 422 234.7 432 256 437.3C277.3 442.7 298.7 443.3 320 441C341.3 438.7 362.7 433.3 384 428.5C405.3 423.7 426.7 419.3 448 420.5C469.3 421.7 490.7 428.3 512 428.3C533.3 428.3 554.7 421.7 576 422.2C597.3 422.7 618.7 430.3 640 436.2C661.3 442 682.7 446 704 447.5C725.3 449 746.7 448 768 441.7C789.3 435.3 810.7 423.7 832 422.7C853.3 421.7 874.7 431.3 896 431.3C917.3 431.3 938.7 421.7 949.3 416.8L960 412L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#d6d7de"></path><path d="M0 435L10.7 436.5C21.3 438 42.7 441 64 445.2C85.3 449.3 106.7 454.7 128 455.7C149.3 456.7 170.7 453.3 192 452.2C213.3 451 234.7 452 256 451C277.3 450 298.7 447 320 444.3C341.3 441.7 362.7 439.3 384 442.2C405.3 445 426.7 453 448 455.3C469.3 457.7 490.7 454.3 512 453.8C533.3 453.3 554.7 455.7 576 456.8C597.3 458 618.7 458 640 457.5C661.3 457 682.7 456 704 456.5C725.3 457 746.7 459 768 461.2C789.3 463.3 810.7 465.7 832 464.8C853.3 464 874.7 460 896 457.5C917.3 455 938.7 454 949.3 453.5L960 453L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#aeafbe"></path><path d="M0 453L10.7 456C21.3 459 42.7 465 64 465.3C85.3 465.7 106.7 460.3 128 458.2C149.3 456 170.7 457 192 460C213.3 463 234.7 468 256 471.7C277.3 475.3 298.7 477.7 320 477.3C341.3 477 362.7 474 384 474.2C405.3 474.3 426.7 477.7 448 479C469.3 480.3 490.7 479.7 512 474.8C533.3 470 554.7 461 576 459.2C597.3 457.3 618.7 462.7 640 468C661.3 473.3 682.7 478.7 704 479.7C725.3 480.7 746.7 477.3 768 475.2C789.3 473 810.7 472 832 472.3C853.3 472.7 874.7 474.3 896 476C917.3 477.7 938.7 479.3 949.3 480.2L960 481L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#878a9f"></path><path d="M0 477L10.7 479.7C21.3 482.3 42.7 487.7 64 490.3C85.3 493 106.7 493 128 492C149.3 491 170.7 489 192 488.8C213.3 488.7 234.7 490.3 256 492.3C277.3 494.3 298.7 496.7 320 497.7C341.3 498.7 362.7 498.3 384 495C405.3 491.7 426.7 485.3 448 482.8C469.3 480.3 490.7 481.7 512 484.3C533.3 487 554.7 491 576 493.7C597.3 496.3 618.7 497.7 640 493.8C661.3 490 682.7 481 704 480.7C725.3 480.3 746.7 488.7 768 488.5C789.3 488.3 810.7 479.7 832 477.2C853.3 474.7 874.7 478.3 896 481.7C917.3 485 938.7 488 949.3 489.5L960 491L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#626681"></path><path d="M0 513L10.7 508.8C21.3 504.7 42.7 496.3 64 493.8C85.3 491.3 106.7 494.7 128 497C149.3 499.3 170.7 500.7 192 502.8C213.3 505 234.7 508 256 509.8C277.3 511.7 298.7 512.3 320 510.5C341.3 508.7 362.7 504.3 384 500.5C405.3 496.7 426.7 493.3 448 493.7C469.3 494 490.7 498 512 499.3C533.3 500.7 554.7 499.3 576 500.8C597.3 502.3 618.7 506.7 640 505C661.3 503.3 682.7 495.7 704 495.2C725.3 494.7 746.7 501.3 768 503C789.3 504.7 810.7 501.3 832 501.3C853.3 501.3 874.7 504.7 896 506C917.3 507.3 938.7 506.7 949.3 506.3L960 506L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#3d4564"></path><path d="M0 522L10.7 520.5C21.3 519 42.7 516 64 516C85.3 516 106.7 519 128 522C149.3 525 170.7 528 192 527.3C213.3 526.7 234.7 522.3 256 521.7C277.3 521 298.7 524 320 522.7C341.3 521.3 362.7 515.7 384 515.5C405.3 515.3 426.7 520.7 448 522.3C469.3 524 490.7 522 512 519.7C533.3 517.3 554.7 514.7 576 515.5C597.3 516.3 618.7 520.7 640 522.3C661.3 524 682.7 523 704 523.5C725.3 524 746.7 526 768 524.3C789.3 522.7 810.7 517.3 832 516.7C853.3 516 874.7 520 896 521.7C917.3 523.3 938.7 522.7 949.3 522.3L960 522L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z" fill="#182648"></path></svg>
+                    <svg id="visual" viewBox="0 300 960 240" class="img-fluid p-0" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+                        <path
+                            d="M0 396L10.7 398.7C21.3 401.3 42.7 406.7 64 411.2C85.3 415.7 106.7 419.3 128 421.2C149.3 423 170.7 423 192 422.3C213.3 421.7 234.7 420.3 256 419.2C277.3 418 298.7 417 320 417.2C341.3 417.3 362.7 418.7 384 420.8C405.3 423 426.7 426 448 424.8C469.3 423.7 490.7 418.3 512 418.8C533.3 419.3 554.7 425.7 576 424.2C597.3 422.7 618.7 413.3 640 413.5C661.3 413.7 682.7 423.3 704 422.2C725.3 421 746.7 409 768 407.3C789.3 405.7 810.7 414.3 832 416.7C853.3 419 874.7 415 896 411.2C917.3 407.3 938.7 403.7 949.3 401.8L960 400L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#ffffff"></path>
+                        <path
+                            d="M0 446L10.7 440.3C21.3 434.7 42.7 423.3 64 421.3C85.3 419.3 106.7 426.7 128 426.7C149.3 426.7 170.7 419.3 192 420.7C213.3 422 234.7 432 256 437.3C277.3 442.7 298.7 443.3 320 441C341.3 438.7 362.7 433.3 384 428.5C405.3 423.7 426.7 419.3 448 420.5C469.3 421.7 490.7 428.3 512 428.3C533.3 428.3 554.7 421.7 576 422.2C597.3 422.7 618.7 430.3 640 436.2C661.3 442 682.7 446 704 447.5C725.3 449 746.7 448 768 441.7C789.3 435.3 810.7 423.7 832 422.7C853.3 421.7 874.7 431.3 896 431.3C917.3 431.3 938.7 421.7 949.3 416.8L960 412L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#d6d7de"></path>
+                        <path
+                            d="M0 435L10.7 436.5C21.3 438 42.7 441 64 445.2C85.3 449.3 106.7 454.7 128 455.7C149.3 456.7 170.7 453.3 192 452.2C213.3 451 234.7 452 256 451C277.3 450 298.7 447 320 444.3C341.3 441.7 362.7 439.3 384 442.2C405.3 445 426.7 453 448 455.3C469.3 457.7 490.7 454.3 512 453.8C533.3 453.3 554.7 455.7 576 456.8C597.3 458 618.7 458 640 457.5C661.3 457 682.7 456 704 456.5C725.3 457 746.7 459 768 461.2C789.3 463.3 810.7 465.7 832 464.8C853.3 464 874.7 460 896 457.5C917.3 455 938.7 454 949.3 453.5L960 453L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#aeafbe"></path>
+                        <path
+                            d="M0 453L10.7 456C21.3 459 42.7 465 64 465.3C85.3 465.7 106.7 460.3 128 458.2C149.3 456 170.7 457 192 460C213.3 463 234.7 468 256 471.7C277.3 475.3 298.7 477.7 320 477.3C341.3 477 362.7 474 384 474.2C405.3 474.3 426.7 477.7 448 479C469.3 480.3 490.7 479.7 512 474.8C533.3 470 554.7 461 576 459.2C597.3 457.3 618.7 462.7 640 468C661.3 473.3 682.7 478.7 704 479.7C725.3 480.7 746.7 477.3 768 475.2C789.3 473 810.7 472 832 472.3C853.3 472.7 874.7 474.3 896 476C917.3 477.7 938.7 479.3 949.3 480.2L960 481L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#878a9f"></path>
+                        <path
+                            d="M0 477L10.7 479.7C21.3 482.3 42.7 487.7 64 490.3C85.3 493 106.7 493 128 492C149.3 491 170.7 489 192 488.8C213.3 488.7 234.7 490.3 256 492.3C277.3 494.3 298.7 496.7 320 497.7C341.3 498.7 362.7 498.3 384 495C405.3 491.7 426.7 485.3 448 482.8C469.3 480.3 490.7 481.7 512 484.3C533.3 487 554.7 491 576 493.7C597.3 496.3 618.7 497.7 640 493.8C661.3 490 682.7 481 704 480.7C725.3 480.3 746.7 488.7 768 488.5C789.3 488.3 810.7 479.7 832 477.2C853.3 474.7 874.7 478.3 896 481.7C917.3 485 938.7 488 949.3 489.5L960 491L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#626681"></path>
+                        <path
+                            d="M0 513L10.7 508.8C21.3 504.7 42.7 496.3 64 493.8C85.3 491.3 106.7 494.7 128 497C149.3 499.3 170.7 500.7 192 502.8C213.3 505 234.7 508 256 509.8C277.3 511.7 298.7 512.3 320 510.5C341.3 508.7 362.7 504.3 384 500.5C405.3 496.7 426.7 493.3 448 493.7C469.3 494 490.7 498 512 499.3C533.3 500.7 554.7 499.3 576 500.8C597.3 502.3 618.7 506.7 640 505C661.3 503.3 682.7 495.7 704 495.2C725.3 494.7 746.7 501.3 768 503C789.3 504.7 810.7 501.3 832 501.3C853.3 501.3 874.7 504.7 896 506C917.3 507.3 938.7 506.7 949.3 506.3L960 506L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#3d4564"></path>
+                        <path
+                            d="M0 522L10.7 520.5C21.3 519 42.7 516 64 516C85.3 516 106.7 519 128 522C149.3 525 170.7 528 192 527.3C213.3 526.7 234.7 522.3 256 521.7C277.3 521 298.7 524 320 522.7C341.3 521.3 362.7 515.7 384 515.5C405.3 515.3 426.7 520.7 448 522.3C469.3 524 490.7 522 512 519.7C533.3 517.3 554.7 514.7 576 515.5C597.3 516.3 618.7 520.7 640 522.3C661.3 524 682.7 523 704 523.5C725.3 524 746.7 526 768 524.3C789.3 522.7 810.7 517.3 832 516.7C853.3 516 874.7 520 896 521.7C917.3 523.3 938.7 522.7 949.3 522.3L960 522L960 541L949.3 541C938.7 541 917.3 541 896 541C874.7 541 853.3 541 832 541C810.7 541 789.3 541 768 541C746.7 541 725.3 541 704 541C682.7 541 661.3 541 640 541C618.7 541 597.3 541 576 541C554.7 541 533.3 541 512 541C490.7 541 469.3 541 448 541C426.7 541 405.3 541 384 541C362.7 541 341.3 541 320 541C298.7 541 277.3 541 256 541C234.7 541 213.3 541 192 541C170.7 541 149.3 541 128 541C106.7 541 85.3 541 64 541C42.7 541 21.3 541 10.7 541L0 541Z"
+                            fill="#182648"></path>
+                    </svg>
                 </div>
             </div>
             </div>
         </section>
 
         <!--Contact Us!-->
-        <section id="contact">
-            <div class="container-fluid spacer wave8 pt-5 pb-5">
+        <section id="contact" class="bg-dbluey">
+            <div class="container-fluid spacer wave8 pt-5">
                 <div class="row">
                     <div class="col-6">
-                        <h1 class="contact-title ms-2" style="font-family: Gliker; font-weight: 600; color: white;">Contact Us!</h1>
-                        <p class="ms-2 contact-text" style="text-align: justify;"><span
+                        <h1 class="title-text ms-2" style="font-family: Gliker; font-weight: 600; color: white;">
+                            Contact Us!</h1>
+                        <p class="ms-2 desc-text" style="text-align: justify;"><span
                                 style="font-weight: 700;">INSTAGRAM :</span>
                             @gitlegit_mochiku<br>
                             <span style="font-weight: 700">WHATSAPP :</span> <a
@@ -892,10 +945,10 @@
                             Semarang Barat, Kota Semarang, Jawa Tengah 50148
                         </p>
                     </div>
-                    <div class="col-6">
+                    <!-- <div class="col-6">
                         <img src="./assets/Undraw/contact.png" class="img-fluid">
-                    </div>
-                    <div class="col-12 hidden pt-2">
+                    </div> -->
+                    <div class="col-6 hidden pt-2">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3960.1463333588363!2d110.39333988885502!3d-6.9920399999999985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKarangsawo%20Barat%2C%20RT.04%2FRW.02%2C%20Bongsari%2C%20Kec.%20Semarang%20Barat%2C%20Kota%20Semarang%2C%20Jawa%20Tengah%2050148%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1707195595600!5m2!1sen!2sid"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
@@ -928,36 +981,37 @@
                 </div>
                 <div class="col-4 text-white d-flex flex-column align-items-start">
                     <div class="icon-text">
-                        <i class="bi bi-instagram loc"></i>
-                        <span class="loc"
+                        <i class="bi bi-instagram footer-text"></i>
+                        <span class="footer-text"
                             style="text-decoration: none; font-family: Arial, Helvetica, sans-serif;">gitlegit_mochiku</span>
                     </div>
                     <div class="icon-text">
-                        <i class="bi bi-whatsapp loc"></i>
-                        <span class="loc"
+                        <i class="bi bi-whatsapp footer-text"></i>
+                        <span class="footer-text"
                             style="text-decoration: none; font-family: Arial, Helvetica, sans-serif;">089508923166</span>
                     </div>
                     <div class="icon-text">
-                        <i class="bi bi-geo-alt-fill loc"></i>
-                        <span class="loc d-none d-md-flex"
+                        <i class="bi bi-geo-alt-fill footer-text"></i>
+                        <span class="footer-text d-none d-md-flex"
                             style="text-decoration: none; font-family: Arial, Helvetica, sans-serif;">Karangsawo Barat,
                             RT.04/RW.02, Bongsari, Kec. Semarang Barat, Kota Semarang, Jawa Tengah 50148</span>
-                        <span class="loc d-flex d-md-none"
+                        <span class="footer-text d-flex d-md-none"
                             style="text-decoration: none; font-family: Arial, Helvetica, sans-serif;">Bongsari, Kec.
                             Semarang Barat, Kota Semarang</span>
                     </div>
                 </div>
-                <div class="col-2 text-white loc d-flex flex-column justify-content-start align-items-start">
+                <div class="col-2 text-white footer-text d-flex flex-column justify-content-start align-items-start">
                     <a href="#tentangkami" class="text-white"
                         style="text-decoration: none;font-weight: 600;">Tentang</a>
                     <a href="#produk" class="text-white" style="text-decoration: none;font-weight: 600;">Produk</a>
                     <a href="#testi" class="text-white" style="text-decoration: none;font-weight: 600;">Testimoni</a>
                 </div>
-                <div class="col-2 text-white loc d-flex flex-column justify-content-start align-items-start">
+                <div class="col-2 text-white footer-text d-flex flex-column justify-content-start align-items-start">
                     <a href="#faq" class="text-white" style="text-decoration: none;font-weight: 600;">FAQ</a>
                     <a href="#contact" class="text-white" style="text-decoration: none;font-weight: 600;">Contact</a>
                 </div>
-                <div class="col-4 text-white d-flex align-items-start justify-content-center">
+                <div class="col-4"></div>
+                <!-- <div class="col-4 text-white d-flex align-items-start justify-content-center">
                     <a style="text-decoration: none; color: white;" href="https://www.instagram.com/gitlegit_mochiku/">
                         <i class="bi bi-instagram loc p-1 p-md-3 fs-5"></i>
                     </a>
@@ -970,7 +1024,7 @@
                     <a style="text-decoration: none; color: white;" href="https://maps.app.goo.gl/iL5FFF7fc4EJWC2V9">
                         <i class="bi bi-geo-alt-fill loc p-1 p-md-3 fs-5"></i>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
@@ -983,60 +1037,49 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
 
-    <script>
-        window.onscroll = function () {
-            var navbar = document.getElementById('navbartop');
-            if (window.pageYOffset >= 50) {
-                navbar.classList.remove('bg-transparent');
-                navbar.classList.add('bg-dbluey');
-            } else {
-                navbar.classList.remove('bg-dbluey');
-                navbar.classList.add('bg-transparent');
-            }
-        };
-    </script>
+
     <script>
         const tween = KUTE.fromTo(
             '#path11',
-            { path: '#path11'},
-            { path: '#path21'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path11' },
+            { path: '#path21' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween2 = KUTE.fromTo(
             '#path12',
-            { path: '#path12'},
-            { path: '#path22'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path12' },
+            { path: '#path22' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween3 = KUTE.fromTo(
             '#path13',
-            { path: '#path13'},
-            { path: '#path23'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path13' },
+            { path: '#path23' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween4 = KUTE.fromTo(
             '#path14',
-            { path: '#path14'},
-            { path: '#path24'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path14' },
+            { path: '#path24' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween5 = KUTE.fromTo(
             '#path15',
-            { path: '#path15'},
-            { path: '#path25'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path15' },
+            { path: '#path25' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween6 = KUTE.fromTo(
             '#path16',
-            { path: '#path16'},
-            { path: '#path26'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path16' },
+            { path: '#path26' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
         const tween7 = KUTE.fromTo(
             '#path17',
-            { path: '#path17'},
-            { path: '#path27'},
-            { repeat: 999, duration : 3000, yoyo: true}
+            { path: '#path17' },
+            { path: '#path27' },
+            { repeat: 999, duration: 3000, yoyo: true }
         )
 
         tween.start()

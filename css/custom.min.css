@@ -22420,6 +22420,13 @@ section{
   background-size: cover;
 }
 
+.spacer2{
+  aspect-ratio: 960/100;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .wave1{
   background-image: url(../assets/bg/wave1.svg);
 }
@@ -22437,6 +22444,9 @@ section{
 }
 .wave8{
   background-image: url(../assets/bg/wave8.svg);
+}
+.wave10{
+  background-image: url(../assets/bg/wave10.svg);
 }
 
 

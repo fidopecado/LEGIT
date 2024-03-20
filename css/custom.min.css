@@ -22549,6 +22549,370 @@ section{
   }
 }
 
+@font-face {
+  font-family: 'Gliker Black Semi Condensed';
+  src: url('../assets/font/Gliker-BlackSemiCondensed.eot');
+  src: local('Gliker Black Semi Condensed'), local('Gliker-BlackSemiCondensed'),
+      url('../assets/font/Gliker-BlackSemiCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackSemiCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackSemiCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BlackSemiCondensed.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Black Extra Expanded';
+  src: url('../assets/font/Gliker-BlackExtraExpanded.eot');
+  src: local('Gliker Black Extra Expanded'), local('Gliker-BlackExtraExpanded'),
+      url('../assets/font/Gliker-BlackExtraExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackExtraExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackExtraExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BlackExtraExpanded.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Black Semi Expanded';
+  src: url('../assets/font/Gliker-BlackSemiExpanded.eot');
+  src: local('Gliker Black Semi Expanded'), local('Gliker-BlackSemiExpanded'),
+      url('../assets/font/Gliker-BlackSemiExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackSemiExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackSemiExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BlackSemiExpanded.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold Extra Condensed';
+  src: url('../assets/font/Gliker-BoldExtraCondensed.eot');
+  src: local('Gliker Bold Extra Condensed'), local('Gliker-BoldExtraCondensed'),
+      url('../assets/font/Gliker-BoldExtraCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldExtraCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldExtraCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BoldExtraCondensed.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Black Expanded';
+  src: url('../assets/font/Gliker-BlackExpanded.eot');
+  src: local('Gliker Black Expanded'), local('Gliker-BlackExpanded'),
+      url('../assets/font/Gliker-BlackExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BlackExpanded.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold Expanded';
+  src: url('../assets/font/Gliker-BoldExpanded.eot');
+  src: local('Gliker Bold Expanded'), local('Gliker-BoldExpanded'),
+      url('../assets/font/Gliker-BoldExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BoldExpanded.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker';
+  src: url('../assets/font/Gliker-Bold.eot');
+  src: local('Gliker Bold'), local('Gliker-Bold'),
+      url('../assets/font/Gliker-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-Bold.woff2') format('woff2'),
+      url('../assets/font/Gliker-Bold.woff') format('woff'),
+      url('../assets/font/Gliker-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold SemiCondensed';
+  src: url('../assets/font/Gliker-BoldSemiCondensed.eot');
+  src: local('Gliker Bold SemiCondensed'), local('Gliker-BoldSemiCondensed'),
+      url('../assets/font/Gliker-BoldSemiCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldSemiCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldSemiCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BoldSemiCondensed.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Black Extra Condensed';
+  src: url('../assets/font/Gliker-BlackExtraCondensed.eot');
+  src: local('Gliker Black Extra Condensed'), local('Gliker-BlackExtraCondensed'),
+      url('../assets/font/Gliker-BlackExtraCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackExtraCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackExtraCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BlackExtraCondensed.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker';
+  src: url('../assets/font/Gliker-Black.eot');
+  src: local('Gliker Black'), local('Gliker-Black'),
+      url('../assets/font/Gliker-Black.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-Black.woff2') format('woff2'),
+      url('../assets/font/Gliker-Black.woff') format('woff'),
+      url('../assets/font/Gliker-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold Condensed';
+  src: url('../assets/font/Gliker-BoldCondensed.eot');
+  src: local('Gliker Bold Condensed'), local('Gliker-BoldCondensed'),
+      url('../assets/font/Gliker-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BoldCondensed.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Black Condensed';
+  src: url('../assets/font/Gliker-BlackCondensed.eot');
+  src: local('Gliker Black Condensed'), local('Gliker-BlackCondensed'),
+      url('../assets/font/Gliker-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BlackCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-BlackCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-BlackCondensed.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold Extra Expanded';
+  src: url('../assets/font/Gliker-BoldExtraExpanded.eot');
+  src: local('Gliker Bold Extra Expanded'), local('Gliker-BoldExtraExpanded'),
+      url('../assets/font/Gliker-BoldExtraExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldExtraExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldExtraExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BoldExtraExpanded.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Condensed';
+  src: url('../assets/font/Gliker-RegularCondensed.eot');
+  src: local('Gliker Regular Condensed'), local('Gliker-RegularCondensed'),
+      url('../assets/font/Gliker-RegularCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-RegularCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Semi Condensed';
+  src: url('../assets/font/Gliker-RegularSemiCondensed.eot');
+  src: local('Gliker Regular Semi Condensed'), local('Gliker-RegularSemiCondensed'),
+      url('../assets/font/Gliker-RegularSemiCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularSemiCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularSemiCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-RegularSemiCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Extra Condensed';
+  src: url('../assets/font/Gliker-RegularExtraCondensed.eot');
+  src: local('Gliker Regular Extra Condensed'), local('Gliker-RegularExtraCondensed'),
+      url('../assets/font/Gliker-RegularExtraCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularExtraCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularExtraCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-RegularExtraCondensed.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Extra Condensed';
+  src: url('../assets/font/Gliker-SemiBoldExtraCondensed.eot');
+  src: local('Gliker SemiBold Extra Condensed'), local('Gliker-SemiBoldExtraCondensed'),
+      url('../assets/font/Gliker-SemiBoldExtraCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldExtraCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldExtraCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldExtraCondensed.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Semi Expanded';
+  src: url('../assets/font/Gliker-SemiBoldSemiExpanded.eot');
+  src: local('Gliker SemiBold Semi Expanded'), local('Gliker-SemiBoldSemiExpanded'),
+      url('../assets/font/Gliker-SemiBoldSemiExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldSemiExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldSemiExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldSemiExpanded.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Semi Condensed';
+  src: url('../assets/font/Gliker-SemiBoldSemiCondensed.eot');
+  src: local('Gliker SemiBold Semi Condensed'), local('Gliker-SemiBoldSemiCondensed'),
+      url('../assets/font/Gliker-SemiBoldSemiCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldSemiCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldSemiCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldSemiCondensed.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Expanded';
+  src: url('../assets/font/Gliker-RegularExpanded.eot');
+  src: local('Gliker Regular Expanded'), local('Gliker-RegularExpanded'),
+      url('../assets/font/Gliker-RegularExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-RegularExpanded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Condensed';
+  src: url('../assets/font/Gliker-SemiBoldCondensed.eot');
+  src: local('Gliker SemiBold Condensed'), local('Gliker-SemiBoldCondensed'),
+      url('../assets/font/Gliker-SemiBoldCondensed.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldCondensed.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldCondensed.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldCondensed.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Extra Expanded';
+  src: url('../assets/font/Gliker-RegularExtraExpanded.eot');
+  src: local('Gliker Regular Extra Expanded'), local('Gliker-RegularExtraExpanded'),
+      url('../assets/font/Gliker-RegularExtraExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularExtraExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularExtraExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-RegularExtraExpanded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker';
+  src: url('../assets/font/Gliker-SemiBold.eot');
+  src: local('Gliker SemiBold'), local('Gliker-SemiBold'),
+      url('../assets/font/Gliker-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBold.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBold.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Extra Expanded';
+  src: url('../assets/font/Gliker-SemiBoldExtraExpanded.eot');
+  src: local('Gliker SemiBold Extra Expanded'), local('Gliker-SemiBoldExtraExpanded'),
+      url('../assets/font/Gliker-SemiBoldExtraExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldExtraExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldExtraExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldExtraExpanded.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker';
+  src: url('../assets/font/Gliker-Regular.eot');
+  src: local('Gliker Regular'), local('Gliker-Regular'),
+      url('../assets/font/Gliker-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-Regular.woff2') format('woff2'),
+      url('../assets/font/Gliker-Regular.woff') format('woff'),
+      url('../assets/font/Gliker-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Bold Semi Expanded';
+  src: url('../assets/font/Gliker-BoldSemiExpanded.eot');
+  src: local('Gliker Bold Semi Expanded'), local('Gliker-BoldSemiExpanded'),
+      url('../assets/font/Gliker-BoldSemiExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-BoldSemiExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-BoldSemiExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-BoldSemiExpanded.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker SemiBold Expanded';
+  src: url('../assets/font/Gliker-SemiBoldExpanded.eot');
+  src: local('Gliker SemiBold Expanded'), local('Gliker-SemiBoldExpanded'),
+      url('../assets/font/Gliker-SemiBoldExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-SemiBoldExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-SemiBoldExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-SemiBoldExpanded.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gliker Semi Expanded';
+  src: url('../assets/font/Gliker-RegularSemiExpanded.eot');
+  src: local('Gliker Regular Semi Expanded'), local('Gliker-RegularSemiExpanded'),
+      url('../assets/font/Gliker-RegularSemiExpanded.eot?#iefix') format('embedded-opentype'),
+      url('../assets/font/Gliker-RegularSemiExpanded.woff2') format('woff2'),
+      url('../assets/font/Gliker-RegularSemiExpanded.woff') format('woff'),
+      url('../assets/font/Gliker-RegularSemiExpanded.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 .scrolled-down{
   transform:translateY(-100%); transition: all 0.3s ease-in-out;
